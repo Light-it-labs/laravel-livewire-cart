@@ -4,9 +4,7 @@
     <list default="true" id="659b8371-4ee0-408f-8f3c-4397c6339334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/livewire/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/products.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583242774326</updated>
-      <workItem from="1583242775841" duration="9550000" />
+      <workItem from="1583242775841" duration="12855000" />
     </task>
     <servers />
   </component>
