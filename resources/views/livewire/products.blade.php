@@ -17,7 +17,9 @@
                             {{ $product->description }}
                         </p>
                         <div class="flex justify-end mt-5 absolute w-full bottom-0 left-0 pb-5">
-                            <a href="#" class="block uppercase font-bold text-green-600 hover:text-green-500 mr-4">Add to cart</a>
+                            <button wire:click="addToCart({{ $product->id }})" class="block uppercase font-bold text-green-600 hover:text-green-500 mr-4">
+                                Add to cart
+                            </button>
                         </div>
                     </div>
                 </div>
