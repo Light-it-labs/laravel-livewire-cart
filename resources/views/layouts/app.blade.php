@@ -11,7 +11,7 @@
         @livewireStyles
     </head>
     <body>
-        <div class="container">
+        <div class="mx-auto">
             @yield('content')
         </div>
 
