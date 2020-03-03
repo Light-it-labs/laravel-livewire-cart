@@ -26,4 +26,8 @@ class CartService
         request()->session()->put('cart', $cart);
     }
 
+    public function get(): array
+    {
+        return request()->session()->get('cart');
+    }
 }
