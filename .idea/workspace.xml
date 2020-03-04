@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659b8371-4ee0-408f-8f3c-4397c6339334" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Helpers/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/cart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cart/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@index')->name('home');
-Route::get('/products', 'ProductsController@index')->name('products');
-Route::get('/cart', 'CartController@index')->name('cart');
+Route::livewire('/', 'home')->name('home');
+Route::livewire('/products', 'products')->name('products');
+Route::livewire('/cart', 'cart')->name('cart');
