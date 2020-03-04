@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="659b8371-4ee0-408f-8f3c-4397c6339334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/cart.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +131,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../agrotrabajo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel-livewire-example" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -170,10 +166,10 @@
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state x="1893" y="207" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/59.27.1381.873/1440.0.1440.900@1440.0.1440.900" timestamp="1583265039936" />
-    <state x="1943" y="207" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583243858066">
+    <state x="1943" y="207" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583341269566">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
-    <state x="1943" y="207" width="424" height="484" key="FileChooserDialogImpl/59.27.1381.873/1440.0.1440.900@1440.0.1440.900" timestamp="1583243858066" />
+    <state x="1943" y="207" width="424" height="484" key="FileChooserDialogImpl/59.27.1381.873/1440.0.1440.900@1440.0.1440.900" timestamp="1583341269566" />
     <state x="1806" y="262" width="697" height="373" key="NewPhpClassDialog" timestamp="1583327832069">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>

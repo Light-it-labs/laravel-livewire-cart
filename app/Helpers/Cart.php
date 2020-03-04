@@ -18,7 +18,6 @@ class Cart
     {
         $cart = $this->get();
         array_push($cart['products'], $product);
-        $cart['total'] += $product->price;
         $this->set($cart);
     }
 
@@ -38,7 +37,6 @@ class Cart
     {
         return [
             'products' => [],
-            'total' => 0
         ];
     }
 
