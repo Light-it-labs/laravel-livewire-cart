@@ -8,26 +8,37 @@ class Cart
 {
     public function __construct()
     {
-        $session = request()->session();
-
-        if($session->get('cart') === null) {
-            $session->put('cart', [
-                'items' => [],
+        if(request()->session()->get('cart') === null)
+            $this->set([
+                'products' => [],
                 'total' => 0
             ]);
-        }
     }
 
     public function add($product): void
     {
-        $cart = request()->session()->get('cart');
-        array_push($cart['items'], $product);
+        $cart = $this->get();
+        array_push($cart['products'], $product);
         $cart['total'] += $product->price;
-        request()->session()->put('cart', $cart);
+        $this->set($cart);
     }
 
-    public function get(): array
+    public function remove($productId): void
+    {
+        $cart = $this->get();
+
+        array_splice($cart['products'], array_search($productId, array_column($cart['products'], 'id')), 1);
+
+        $this->set($cart);
+    }
+
+    public function get(): ?array
     {
         return request()->session()->get('cart');
+    }
+
+    private function set($cart): void
+    {
+        request()->session()->put('cart', $cart);
     }
 }

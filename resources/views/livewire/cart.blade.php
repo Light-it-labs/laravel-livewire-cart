@@ -10,12 +10,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($cart['items'] as $item)
+                    @foreach($cart['products'] as $product)
                         <tr class="hover:bg-grey-lighter">
-                            <td class="py-4 px-6 border-b border-grey-light">{{ $item->name }}</td>
-                            <td class="py-4 px-6 border-b border-grey-light">{{ $item->price }}</td>
+                            <td class="py-4 px-6 border-b border-grey-light">{{ $product->name }}</td>
+                            <td class="py-4 px-6 border-b border-grey-light">{{ $product->price }}</td>
                             <td class="py-4 px-6 border-b border-grey-light">
-                                <a href="#" class="text-grey-lighter font-bold py-1 px-3 rounded text-xs bg-green hover:bg-green-dark">Remove</a>
+                                <a wire:click="removeFromCart({{ $product->id }})" href="#" class="text-grey-lighter font-bold py-1 px-3 rounded text-xs bg-green hover:bg-green-dark">Remove</a>
                             </td>
                         </tr>
                     @endforeach

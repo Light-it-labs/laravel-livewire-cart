@@ -18,4 +18,11 @@ class Cart extends Component
     {
         return view('livewire.cart');
     }
+
+    public function removeFromCart($productId): void
+    {
+        CartFacade::remove($productId);
+
+        $this->cart = CartFacade::get();
+    }
 }
