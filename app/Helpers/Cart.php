@@ -1,10 +1,10 @@
 <?php
 
 
-namespace App\Services;
+namespace App\Helpers;
 
 
-class CartService
+class Cart
 {
     public function __construct()
     {

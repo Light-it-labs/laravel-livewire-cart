@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659b8371-4ee0-408f-8f3c-4397c6339334" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cart/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Facades/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Helpers/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/CartService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CartService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/CartService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,10 +173,10 @@
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state x="1943" y="207" width="424" height="484" key="FileChooserDialogImpl/59.27.1381.873/1440.0.1440.900@1440.0.1440.900" timestamp="1583243858066" />
-    <state x="1806" y="262" width="697" height="373" key="NewPhpClassDialog" timestamp="1583264441477">
+    <state x="1806" y="262" width="697" height="373" key="NewPhpClassDialog" timestamp="1583327832069">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
-    <state x="1806" y="262" width="697" height="373" key="NewPhpClassDialog/59.27.1381.873/1440.0.1440.900@1440.0.1440.900" timestamp="1583264441477" />
+    <state x="1806" y="262" width="697" height="373" key="NewPhpClassDialog/59.27.1381.873/1440.0.1440.900@1440.0.1440.900" timestamp="1583327832069" />
     <state x="1955" y="374" width="399" height="149" key="NewPhpFileDialog" timestamp="1583252648324">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
