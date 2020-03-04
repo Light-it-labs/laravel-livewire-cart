@@ -25,4 +25,11 @@ class Cart extends Component
 
         $this->cart = CartFacade::get();
     }
+
+    public function checkout(): void
+    {
+        CartFacade::clear();
+
+        $this->cart = CartFacade::get();
+    }
 }

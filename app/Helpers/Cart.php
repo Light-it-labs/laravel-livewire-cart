@@ -4,18 +4,17 @@
 namespace App\Helpers;
 
 
+use App\Product;
+
 class Cart
 {
     public function __construct()
     {
-        if(request()->session()->get('cart') === null)
-            $this->set([
-                'products' => [],
-                'total' => 0
-            ]);
+        if($this->get() === null)
+            $this->set($this->empty());
     }
 
-    public function add($product): void
+    public function add(Product $product): void
     {
         $cart = $this->get();
         array_push($cart['products'], $product);
@@ -23,13 +22,24 @@ class Cart
         $this->set($cart);
     }
 
-    public function remove($productId): void
+    public function remove(int $productId): void
     {
         $cart = $this->get();
-
         array_splice($cart['products'], array_search($productId, array_column($cart['products'], 'id')), 1);
-
         $this->set($cart);
+    }
+
+    public function clear(): void
+    {
+        $this->set($this->empty());
+    }
+
+    public function empty(): array
+    {
+        return [
+            'products' => [],
+            'total' => 0
+        ];
     }
 
     public function get(): ?array
