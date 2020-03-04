@@ -10,13 +10,13 @@
     </div>
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
-            <a href="/" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
+            <a href="/" data-turbolinks-action="replace" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
                 Home
             </a>
-            <a href="/products" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
+            <a href="/products" data-turbolinks-action="replace" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
                 Products
             </a>
-            <a href="/cart" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
+            <a href="/cart" data-turbolinks-action="replace" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
                 Cart
             </a>
         </div>

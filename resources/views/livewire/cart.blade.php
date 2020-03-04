@@ -16,7 +16,7 @@
                                 <td class="py-4 px-6 border-b border-grey-light">{{ $product->name }}</td>
                                 <td class="py-4 px-6 border-b border-grey-light">{{ $product->price }}</td>
                                 <td class="py-4 px-6 border-b border-grey-light">
-                                    <a wire:click="removeFromCart({{ $product->id }})" href="#" class="text-green-600 font-bold py-1 px-3 rounded text-xs bg-green hover:bg-green-dark">Remove</a>
+                                    <a wire:click="removeFromCart({{ $product->id }})" class="text-green-600 font-bold py-1 px-3 rounded text-xs bg-green hover:bg-green-dark cursor-pointer">Remove</a>
                                 </td>
                             </tr>
                         @endforeach
