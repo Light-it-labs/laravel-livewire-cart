@@ -22,8 +22,8 @@ class Cart extends Component
     public function removeFromCart($productId): void
     {
         CartFacade::remove($productId);
-
         $this->cart = CartFacade::get();
+        $this->emit('productRemoved');
     }
 
     public function checkout(): void

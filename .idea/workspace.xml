@@ -3,16 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="659b8371-4ee0-408f-8f3c-4397c6339334" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Helpers/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -151,6 +152,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583242774326</updated>
       <workItem from="1583242775841" duration="19804000" />
+      <workItem from="1583417498441" duration="1456000" />
+      <workItem from="1583419167167" duration="4142000" />
     </task>
     <servers />
   </component>
@@ -166,10 +169,12 @@
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state x="1893" y="207" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/59.27.1381.873/1440.0.1440.900@1440.0.1440.900" timestamp="1583265039936" />
-    <state x="1943" y="207" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583341269566">
-      <screen x="1440" y="0" width="1440" height="900" />
+    <state x="541" y="228" width="374" height="470" key="FileChooserDialogImpl" timestamp="1583419178319">
+      <screen x="59" y="27" width="1381" height="873" />
     </state>
     <state x="1943" y="207" width="424" height="484" key="FileChooserDialogImpl/59.27.1381.873/1440.0.1440.900@1440.0.1440.900" timestamp="1583341269566" />
+    <state x="1999" y="207" key="FileChooserDialogImpl/59.27.1381.873/1440.0.1600.900@1440.0.1600.900" timestamp="1583419127223" />
+    <state x="541" y="228" width="374" height="470" key="FileChooserDialogImpl/59.27.1381.873/1440.0.1600.900@59.27.1381.873" timestamp="1583419178319" />
     <state x="1806" y="262" width="697" height="373" key="NewPhpClassDialog" timestamp="1583327832069">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>

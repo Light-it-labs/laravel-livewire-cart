@@ -9,7 +9,7 @@
         @livewireStyles
     </head>
     <body>
-        @include('layouts.header')
+        @livewire('header')
 
         <div class="mx-auto">
             @yield('content')
