@@ -30,7 +30,7 @@
                 </div>
             @else
                 <div class="text-center w-full border-collapse p-6">
-                    <span class="text-lg">There's no products added</span>
+                    <span class="text-lg">¡Your cart is empty!</span>
                 </div>
             @endif
         </div>

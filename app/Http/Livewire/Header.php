@@ -12,7 +12,8 @@ class Header extends Component
 
     protected $listeners = [
         'productAdded' => 'updateCartTotal',
-        'productRemoved' => 'updateCartTotal'
+        'productRemoved' => 'updateCartTotal',
+        'clearCart' => 'updateCartTotal'
     ];
 
     public function mount(): void

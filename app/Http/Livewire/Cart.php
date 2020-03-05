@@ -29,7 +29,7 @@ class Cart extends Component
     public function checkout(): void
     {
         CartFacade::clear();
-
+        $this->emit('clearCart');
         $this->cart = CartFacade::get();
     }
 }
