@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <div class="w-full flex justify-center">
-        {{ $products->links() }}
+    <div class="w-full flex justify-center pb-6">
+        {{ $products->links('layouts.pagination') }}
     </div>
 </div>
