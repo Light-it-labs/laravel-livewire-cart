@@ -19359,8 +19359,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/juan/projects/laravel-livewire-how-to/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/juan/projects/laravel-livewire-how-to/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/juan/Projects/laravel-livewire-cart/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/juan/Projects/laravel-livewire-cart/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
