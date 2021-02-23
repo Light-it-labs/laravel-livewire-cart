@@ -17,6 +17,15 @@ class Cart
     public function add(Product $product): void
     {
         $cart = $this->get();
+        $cartProductsIds = array_column($cart['products'], 'id');
+        $product->amount = !empty($product->amount) ? $product->amount : 1;
+
+        if (in_array($product->id, $cartProductsIds)) {
+            $cart['products'] = $this->productCartIncrement($product->id, $cart['products']);
+            $this->set($cart);
+            return;
+        }
+
         array_push($cart['products'], $product);
         $this->set($cart);
     }
@@ -48,5 +57,20 @@ class Cart
     private function set($cart): void
     {
         request()->session()->put('cart', $cart);
+    }
+
+    private function productCartIncrement($productId, $cartItems)
+    {
+        $amount = 1;
+        $cartItems = array_map(function ($item) use ($productId, $amount) {
+            if ($productId == $item['id']) {
+                $item['amount'] += $amount;
+                $item['price'] += $item['price'];
+            }
+
+            return $item;
+        }, $cartItems);
+
+        return $cartItems;
     }
 }
